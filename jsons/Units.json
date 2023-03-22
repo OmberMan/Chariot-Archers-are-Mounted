@@ -41,7 +41,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
-		"promotions": ["Accuracy I"],
+		"promotions": ["Shock I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -58,5 +58,40 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"attackSound": "elephant"
+	},
+	{
+		"name": "Camel Archer",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Arabia",
+		"movement": 4,
+		"strength": 17,
+		"rangedStrength": 21,
+		"cost": 140,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "arrow"
+		//Camel Archer should have no penalty attacking cities
+	},
+	{
+		"name": "Keshik",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Mongolia",
+		"range": 2,
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 16,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Great Generals I", "Quick Study"],
+		"attackSound": "arrow"
+		// Keshik should have no penalty attacking cities
 	},
 ]
