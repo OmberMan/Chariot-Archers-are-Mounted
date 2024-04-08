@@ -10,7 +10,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "[+50]% Strength <vs [Spearman] units> <when attacking>", "[+50]% Strength <vs [Pikeman] units> <when attacking>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -25,7 +25,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[+50]% Strength <vs [Spearman] units> <when attacking>", "[+50]% Strength <vs [Pikeman] units> <when attacking>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -40,7 +40,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus"],
+		"uniques": ["No defensive terrain bonus", "[+50]% Strength <vs [Spearman] units> <when attacking>", "[+50]% Strength <vs [Pikeman] units> <when attacking>"],
 		"promotions": ["Shock I"],
 		"attackSound": "arrow"
 	},
@@ -56,7 +56,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus"],
+		"uniques": ["No defensive terrain bonus", "[+50]% Strength <vs [Spearman] units> <when attacking>", "[+50]% Strength <vs [Pikeman] units> <when attacking>"],
 		"attackSound": "elephant"
 	},
 	{
@@ -71,7 +71,7 @@
 		"requiredTech": "Chivalry",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Spearman] units> <when attacking>", "[+50]% Strength <vs [Pikeman] units> <when attacking>"],
 		"attackSound": "arrow"
 		//Camel Archer should have no penalty attacking cities
 	},
@@ -89,7 +89,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Spearman] units> <when attacking>", "[+50]% Strength <vs [Pikeman] units> <when attacking>"],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities
